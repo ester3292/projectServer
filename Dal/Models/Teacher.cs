@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Dal.Models;
+
+public partial class Teacher
+{
+    public int Id { get; set; }
+
+    public string? FirstName { get; set; }
+
+    public string? LastName { get; set; }
+
+    public string? Phone { get; set; }
+
+    public string? Email { get; set; }
+
+    public bool Educator { get; set; }
+
+    public virtual ICollection<MarksForStudent> MarksForStudents { get; set; } = new List<MarksForStudent>();
+}
