@@ -1,10 +1,9 @@
 ﻿using Dal.Api;
 using Dal.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Dal.Services
 {
-    public class DalTeacherService:IDalTeacher
+    public class DalTeacherService : IDalTeacher
     {
         dbcontext dbcontext;
         public DalTeacherService(dbcontext data)
@@ -29,8 +28,8 @@ namespace Dal.Services
         {
             return dbcontext.Teachers.ToList();
         }
-        public Teacher GetById(int id)=>dbcontext.Teachers.ToList().Find(x => x.Id == id);
-       
+        public Teacher GetById(int id) => dbcontext.Teachers.ToList().Find(x => x.Id == id);
+
         /// <summary>
         ///  עבור הכיתה של המורה נחזיר את התלמידות שלה
         /// </summary>
@@ -38,9 +37,9 @@ namespace Dal.Services
         /// <returns>תלמידות של המורה המבקשת</returns>
         public List<Student> GetStudentsForEducationTeacher(int myClass)
         {
-           List<Student> ls = dbcontext.Students.ToList();
-           ls=ls.FindAll(x=>x.Class==myClass).ToList();
-            return ls;  
+            List<Student> ls = dbcontext.Students.ToList();
+            ls = ls.FindAll(x => x.Class == myClass).ToList();
+            return ls;
         }
         public void Delete(Teacher item)
         {

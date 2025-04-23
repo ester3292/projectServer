@@ -3432,19 +3432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\WebApplication1\\Server.csproj",
-      "projectName": "Server",
-      "projectPath": "D:\\חיה\\final-server\\projectServer\\WebApplication1\\Server.csproj",
-      "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-      "outputPath": "D:\\חיה\\final-server\\projectServer\\WebApplication1\\obj\\",
-=======
       "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
       "projectName": "Server",
       "projectPath": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
       "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
       "outputPath": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\obj\\",
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3469,13 +3461,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj": {
-              "projectPath": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj"
-=======
             "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj": {
               "projectPath": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj"
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
             }
           }
         }
@@ -3527,5 +3514,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\000000000\\projectServer\\projectServer\\WebApplication1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

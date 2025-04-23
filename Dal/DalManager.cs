@@ -4,7 +4,7 @@ using Dal.Services;
 
 namespace Dal
 {
-    public class DalManager:IDal
+    public class DalManager : IDal
     {
         dbcontext data = new dbcontext();
 
@@ -19,6 +19,6 @@ namespace Dal
         public IDalStudent Students { get; }
         public IDalTeacher Teachers { get; }
         public IDalMarks Marks { get; }
-       public IDallClass Class { get; }
+        public IDallClass Class { get; }
     }
 }
