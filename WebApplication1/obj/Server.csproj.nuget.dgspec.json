@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\חיה\\final-server\\projectServer\\WebApplication1\\Server.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
         "outputPath": "D:\\חיה\\final-server\\projectServer\\BL\\obj\\",
-=======
-    "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj": {}
-  },
-  "projects": {
-    "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj",
-        "projectName": "BL",
-        "projectPath": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "D:\\000000000\\projectServer\\projectServer\\BL\\obj\\",
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -49,13 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj": {
                 "projectPath": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj"
-=======
-              "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj"
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
               }
             }
           }
@@ -97,7 +78,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -106,16 +86,6 @@
         "projectPath": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
         "outputPath": "D:\\חיה\\final-server\\projectServer\\Dal\\obj\\",
-=======
-    "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj",
-        "projectName": "Dal",
-        "projectPath": "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj",
-        "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "D:\\000000000\\projectServer\\projectServer\\Dal\\obj\\",
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -192,7 +162,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "D:\\חיה\\final-server\\projectServer\\WebApplication1\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -201,16 +170,6 @@
         "projectPath": "D:\\חיה\\final-server\\projectServer\\WebApplication1\\Server.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
         "outputPath": "D:\\חיה\\final-server\\projectServer\\WebApplication1\\obj\\",
-=======
-    "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
-        "projectName": "Server",
-        "projectPath": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
-        "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\obj\\",
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -235,13 +194,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj": {
                 "projectPath": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj"
-=======
-              "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj": {
-                "projectPath": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj"
->>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
               }
             }
           }

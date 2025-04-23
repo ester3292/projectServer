@@ -30,3 +30,20 @@ F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידו�
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\BL\obj\Debug\net7.0\ref\BL.dll
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\BL\bin\Debug\net7.0\BL.runtimeconfig.json
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\BL\obj\Debug\net7.0\BL.genruntimeconfig.cache
+D:\חיה\final-server\projectServer\BL\bin\Debug\net7.0\BL.deps.json
+D:\חיה\final-server\projectServer\BL\bin\Debug\net7.0\BL.runtimeconfig.json
+D:\חיה\final-server\projectServer\BL\bin\Debug\net7.0\BL.dll
+D:\חיה\final-server\projectServer\BL\bin\Debug\net7.0\BL.pdb
+D:\חיה\final-server\projectServer\BL\bin\Debug\net7.0\Dal.dll
+D:\חיה\final-server\projectServer\BL\bin\Debug\net7.0\Dal.pdb
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.csproj.AssemblyReference.cache
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.AssemblyInfoInputs.cache
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.AssemblyInfo.cs
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.csproj.CoreCompileInputs.cache
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.csproj.CopyComplete
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.dll
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\refint\BL.dll
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.pdb
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\BL.genruntimeconfig.cache
+D:\חיה\final-server\projectServer\BL\obj\Debug\net7.0\ref\BL.dll

@@ -26,3 +26,17 @@ F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידו�
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\Dal\obj\Debug\net7.0\Dal.pdb
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\Dal\obj\Debug\net7.0\ref\Dal.dll
+D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.deps.json
+D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.dll
+D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.pdb
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.dll
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\refint\Dal.dll
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.pdb
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\ref\Dal.dll
