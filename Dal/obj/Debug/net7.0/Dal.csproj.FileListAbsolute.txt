@@ -26,6 +26,7 @@ F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידו�
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\Dal\obj\Debug\net7.0\Dal.pdb
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 F:\תיקייה כללית חדש\שנה ב תשפה\קבוצה א\תלמידות\00000000 Esty & Chaya\Final Project\DiplomaProject\Dal\obj\Debug\net7.0\ref\Dal.dll
+<<<<<<< HEAD
 D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.deps.json
 D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
 D:\חיה\final-server\projectServer\Dal\bin\Debug\net7.0\Dal.dll
@@ -40,3 +41,19 @@ D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\refint\Dal.dll
 D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.pdb
 D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 D:\חיה\final-server\projectServer\Dal\obj\Debug\net7.0\ref\Dal.dll
+=======
+D:\000000000\projectServer\projectServer\Dal\bin\Debug\net7.0\Dal.deps.json
+D:\000000000\projectServer\projectServer\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+D:\000000000\projectServer\projectServer\Dal\bin\Debug\net7.0\Dal.dll
+D:\000000000\projectServer\projectServer\Dal\bin\Debug\net7.0\Dal.pdb
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.dll
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\refint\Dal.dll
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.pdb
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\ref\Dal.dll
+>>>>>>> b1a9a01c163e39c370caea1179f8c766a8f3e88b

@@ -1,10 +1,5 @@
 ﻿using Dal.Api;
 using Dal.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dal.Services
 {
@@ -30,15 +25,15 @@ namespace Dal.Services
         /// </summary>
         /// <param name="id">ת.ז. של התלמידה</param>
         /// <returns>ציונים</returns>
-        public List<MarksForStudent> GetMarks(int id) 
+        public List<MarksForStudent> GetMarks(int id)
         {
             var x = dbcontext.MarksForStudents.ToList();
-              var y=  x.FindAll(x=>x.StudentId==id);
+            var y = x.FindAll(x => x.StudentId == id);
             return y;
         }
         public Student GetById(int id) => dbcontext.Students.ToList().Find(x => x.Id == id);
-        public Student GetByFullName(string firstName, string  lastName) => dbcontext.Students.ToList().Find(x => x.FirstName == firstName && x.LastName == lastName);
-            
+        public Student GetByFullName(string firstName, string lastName) => dbcontext.Students.ToList().Find(x => x.FirstName == firstName && x.LastName == lastName);
+
 
         public void Delete(Student student)
         {

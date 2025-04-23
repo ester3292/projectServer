@@ -1,14 +1,9 @@
 ﻿using Dal.Api;
 using Dal.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dal.Services
 {
-    public class DalMarkService:IDalMarks
+    public class DalMarkService : IDalMarks
     {
         dbcontext dbcontext;
         public DalMarkService(dbcontext data)
