@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\BL\\BL.csproj": {}
+    "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj": {}
   },
   "projects": {
-    "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\BL\\BL.csproj": {
+    "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\BL\\BL.csproj",
+        "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\BL\\BL.csproj",
+        "projectPath": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\BL\\obj\\",
+        "outputPath": "D:\\חיה\\final-server\\projectServer\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\Dal\\Dal.csproj": {
-                "projectPath": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\Dal\\Dal.csproj"
+              "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj": {
+                "projectPath": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\Dal\\Dal.csproj": {
+    "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\Dal\\Dal.csproj",
+        "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\Dal\\Dal.csproj",
+        "projectPath": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "F:\\תיקייה כללית חדש\\שנה ב תשפה\\קבוצה א\\תלמידות\\00000000 Esty & Chaya\\Final Project\\DiplomaProject\\Dal\\obj\\",
+        "outputPath": "D:\\חיה\\final-server\\projectServer\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
