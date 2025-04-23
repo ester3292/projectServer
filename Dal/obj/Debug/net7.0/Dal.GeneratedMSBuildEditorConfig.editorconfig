@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dal
+<<<<<<< HEAD
+build_property.ProjectDir = D:\חיה\final-server\projectServer\Dal\
+=======
 build_property.ProjectDir = D:\000000000\projectServer\projectServer\Dal\
+>>>>>>> 4d25f6bbb4f7579324ef8da08fafbf633de7b1a3
