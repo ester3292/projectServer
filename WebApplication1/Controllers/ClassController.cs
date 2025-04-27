@@ -1,5 +1,6 @@
 ﻿using BL.Api;
 using BL.Models;
+using Dal.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Server.Controllers
@@ -18,6 +19,11 @@ namespace Server.Controllers
         public void Create(BlClass myClass)
         {
             classes.Create(myClass);
+        }
+        [HttpGet("GetClassNameById")]
+        public string GetClassNameById(int myclass)
+        {
+            return classes.GetClassNameById(myclass);
         }
     }
 }

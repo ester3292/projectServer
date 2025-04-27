@@ -135,7 +135,7 @@ namespace BL.Service
                         LastName = s.LastName,
                         Phone = s.Phone,
                         Class = s.Class,
-                        MarksForStudent = mark ?? null
+                        MarksForStudent = mark
                     };
                     lst.Add(l);
                 }
@@ -251,7 +251,6 @@ namespace BL.Service
         ///   עדכון תלמידה
         /// </summary>
         /// <param name="student"></param>
-
         public void Update(BlStudent student)
         {
             var m = dal.Students.GetById(student.Id);
