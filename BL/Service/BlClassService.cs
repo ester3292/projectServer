@@ -26,5 +26,15 @@ namespace BL.Service
             };
             dal.Class.Create(c);
         }
+        public string GetClassNameById(int id)
+        {
+            var p = dal.Class.GetClassNameById(id);
+            if (p != null)
+            {
+
+                return p.Name;
+            }
+            return "";
+        }
     }
 }
