@@ -24,7 +24,7 @@ namespace BL.Service
         /// הוספת ציון לתלמיד
         /// </summary>
         /// <param name="mark"></param>
-       public void Create(BlMarks mark)
+       public BlMarks Create(BlMarks mark)
         {
             MarksForStudent p = new MarksForStudent()
             {
@@ -37,6 +37,7 @@ namespace BL.Service
                HalfA=mark.HalfA
             };
             dal.Marks.Create(p);
+            return mark;
         }
         /// <summary>
         ///   עדכון ציון

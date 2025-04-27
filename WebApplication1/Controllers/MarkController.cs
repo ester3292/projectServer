@@ -17,9 +17,9 @@ namespace Server.Controllers
             marks = manager.Marks;
         }
         [HttpPost("Add")]
-        public void Create(BlMarks mark)
+        public BlMarks Create(BlMarks mark)
         {
-            marks.Create(mark);
+            return marks.Create(mark);
         }
         [HttpPut("Update")]
         public int Update(BlMarks mark)
