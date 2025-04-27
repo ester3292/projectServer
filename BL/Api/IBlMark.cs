@@ -9,7 +9,7 @@ namespace BL.Api
 {
     public interface IBlMark
     {
-        void Create(BlMarks mark);
+        BlMarks Create(BlMarks mark);
         int Update(BlMarks mark);
         BlMarks? GetById(int id);
         void Delete(BlMarks mark);
