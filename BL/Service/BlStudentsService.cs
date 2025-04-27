@@ -135,7 +135,7 @@ namespace BL.Service
                         LastName = s.LastName,
                         Phone = s.Phone,
                         Class = s.Class,
-                        MarksForStudent = mark
+                        MarksForStudent = mark ?? null
                     };
                     lst.Add(l);
                 }
@@ -175,11 +175,11 @@ namespace BL.Service
         public BlStudentAchivment getFullAchivmentForStudent(BlStudent s)
         {
             BlStudentAchivment studentAchivmente = new BlStudentAchivment();
-            studentAchivmente.Id = s.Id;    
-            studentAchivmente.FirstName=s.FirstName;
-            studentAchivmente.LastName=s.LastName;  
-            studentAchivmente.Phone= s.Phone;   
-            studentAchivmente.Class=s.Class;    
+            studentAchivmente.Id = s.Id;
+            studentAchivmente.FirstName = s.FirstName;
+            studentAchivmente.LastName = s.LastName;
+            studentAchivmente.Phone = s.Phone;
+            studentAchivmente.Class = s.Class;
 
             List<string> subs = GetAllSubjectsForClass(s.Class);
             foreach (string sub in subs)

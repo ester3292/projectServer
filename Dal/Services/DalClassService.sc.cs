@@ -16,5 +16,10 @@ namespace Dal.Services
             dbcontext.Add(myClass);
             dbcontext.SaveChanges();
         }
+        public Class GetClassNameById(int id)=> dbcontext.Classes.ToList().Find(x => x.Code == id);
+
+
+
+
     }
 }
