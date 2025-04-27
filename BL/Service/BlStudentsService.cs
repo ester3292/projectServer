@@ -19,7 +19,7 @@ namespace BL.Service
         /// הוספת תלמיד
         /// </summary>
         /// <param name="item"></param>
-        public void Create(BlStudent item)
+        public BlStudent Create(BlStudent item)
         {
             Student p = new Student()
             {
@@ -30,6 +30,7 @@ namespace BL.Service
                 Class = item.Class
             };
             dal.Students.Create(p);
+            return item;
         }
         /// <summary>
         /// get לתלמידים
