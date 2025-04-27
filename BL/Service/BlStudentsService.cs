@@ -178,8 +178,8 @@ namespace BL.Service
             studentAchivmente.Id = s.Id;    
             studentAchivmente.FirstName=s.FirstName;
             studentAchivmente.LastName=s.LastName;  
-            studentAchivmente.Phone= s.Phone;   
-            studentAchivmente.Class=s.Class;    
+            studentAchivmente.Phone= s.Phone;
+            studentAchivmente.Class = dal.Class.GetClassNameById(s.Class).Name;
 
             List<string> subs = GetAllSubjectsForClass(s.Class);
             foreach (string sub in subs)
