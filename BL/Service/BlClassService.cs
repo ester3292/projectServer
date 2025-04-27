@@ -2,11 +2,6 @@
 using BL.Models;
 using Dal.Api;
 using Dal.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BL.Service
 {
@@ -22,7 +17,7 @@ namespace BL.Service
         {
             Class c = new Class()
             {
-               Name = myClass.Name
+                Name = myClass.Name
             };
             dal.Class.Create(c);
         }
@@ -31,7 +26,6 @@ namespace BL.Service
             var p = dal.Class.GetClassNameById(id);
             if (p != null)
             {
-
                 return p.Name;
             }
             return "";
