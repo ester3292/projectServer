@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj": {}
+    "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj": {}
   },
   "projects": {
-    "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj": {
+    "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj",
+        "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "D:\\חיה\\final-server\\projectServer\\BL\\BL.csproj",
+        "projectPath": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "D:\\חיה\\final-server\\projectServer\\BL\\obj\\",
+        "outputPath": "D:\\000000000\\projectServer\\projectServer\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj"
+              "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj": {
+                "projectPath": "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj": {
+    "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj",
+        "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "D:\\חיה\\final-server\\projectServer\\Dal\\Dal.csproj",
+        "projectPath": "D:\\000000000\\projectServer\\projectServer\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-        "outputPath": "D:\\חיה\\final-server\\projectServer\\Dal\\obj\\",
+        "outputPath": "D:\\000000000\\projectServer\\projectServer\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
