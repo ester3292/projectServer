@@ -10,10 +10,11 @@ namespace Dal.Services
         {
             dbcontext = data;
         }
-        public void Create(Student item)
+        public List<Student> Create(Student item)
         {
             dbcontext.Students.Add(item);
             dbcontext.SaveChanges();
+            return Get();
         }
 
         public List<Student> Get()

@@ -30,7 +30,7 @@ namespace BL.Service
                 Class = item.Class
             };
             dal.Students.Create(p);
-            return dal.Students.Get();
+            return Get();
         }
         /// <summary>
         /// get לתלמידים

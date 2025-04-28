@@ -61,9 +61,10 @@ namespace Server.Controllers
         }
 
         [HttpPost("Add")]
-        public BlStudent Create(BlStudent student)
+        public List<BlStudent> Create(BlStudent student)
         {
-           return students.Create(student);
+            students.Create(student);
+            return Get();
         }
        
 

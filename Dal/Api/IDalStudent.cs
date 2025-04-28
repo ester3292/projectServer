@@ -5,7 +5,7 @@ namespace Dal.Api
     public interface IDalStudent
     {
         List<Student> Get();
-        void Create(Student item);
+        List<Student> Create(Student item);
         public List<MarksForStudent> GetMarks(int id);
         public Student? GetById(int id);
         public Student? GetByFullName(string firstName, string lastName);
