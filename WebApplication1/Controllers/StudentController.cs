@@ -67,6 +67,7 @@ namespace Server.Controllers
            return students.Create(student);
         }
        
+
         [HttpPut("Update")]
         public void Update(BlStudent student)
         {
