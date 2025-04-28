@@ -175,33 +175,41 @@ namespace BL.Service
         }
         public BlStudentAchivment getFullAchivmentForStudent(BlStudent s)
         {
-            BlStudentAchivment studentAchivmente = new BlStudentAchivment();
-          
-            studentAchivmente.Id = s.Id;    
-            studentAchivmente.FirstName=s.FirstName;
-            studentAchivmente.LastName=s.LastName;  
-            studentAchivmente.Phone= s.Phone;
-            studentAchivmente.Class = dal.Class.GetClassNameById(s.Class).Name;
+            BlStudentAchivment? studentAchivmente = new()
+            {
+                Id = s.Id,
+                FirstName = s.FirstName,
+                LastName = s.LastName,
+                Phone = s.Phone,
+                Class = dal.Class.GetClassNameById(s.Class).Name
+            };
 
             List<string> subs = GetAllSubjectsForClass(s.Class);
             foreach (string sub in subs)
             {
                 BlMarks? bA = GetMarkForStudentInSubjectInHalf(s.Id, sub, 0);
                 BlMarks? bB = GetMarkForStudentInSubjectInHalf(s.Id, sub, 1);
-                int avg = 0;
-                if (bA != null && bB != null)
-                    avg = (bA.Mark + bB.Mark) / 2;
-                else if (bB != null)
-                    avg = bB.Mark;
-                else if (bA != null)
-                    avg = bA.Mark;
-                BlCompleteMark blCompleteMark = new BlCompleteMark()
+                BlCompleteMark? blCompleteMark = new()
                 {
                     Subject = sub,
-                    MarkA = bA,
-                    MarkB = bB,
-                    Avg = avg
                 };
+                if (bA != null && bB != null)
+                {
+                    blCompleteMark.Avg = (bA.Mark + bB.Mark) / 2;
+                    blCompleteMark.MarkA = bA;
+                    blCompleteMark.MarkB = bB;
+                }
+                else if (bB != null)
+                {
+                    blCompleteMark.Avg = bB.Mark;
+                    blCompleteMark.MarkB = bB;
+                }
+                else if (bA != null)
+                {
+                    blCompleteMark.Avg = bA.Mark;
+                    blCompleteMark.MarkA = bA;
+                }
+
                 studentAchivmente.CompleteMark.Add(blCompleteMark);
             }
             return studentAchivmente;
