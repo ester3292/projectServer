@@ -10,7 +10,7 @@ namespace Server.Controllers
 
     public class MarkController : ControllerBase
     {
-        IBlMark marks;
+        readonly IBlMark marks;
 
         public MarkController(IBL manager)
         {

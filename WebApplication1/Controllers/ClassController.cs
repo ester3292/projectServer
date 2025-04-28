@@ -9,7 +9,7 @@ namespace Server.Controllers
     [ApiController]
     public class ClassController : ControllerBase
     {
-        IBlClass classes;
+        readonly IBlClass classes;
 
         public ClassController(IBL manager)
         {
