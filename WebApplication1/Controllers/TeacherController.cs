@@ -30,15 +30,15 @@ namespace Server.Controllers
             return teachers.GetStudentsForEducationTeacher(myClass);
         }
         [HttpPost("Add")]
-        public void Create(BlTeacher teacher)
+        public List<BlTeacher> Create(BlTeacher teacher)
         {
-            teachers.Create(teacher);
+           return teachers.Create(teacher);
         }
        
         [HttpPut("Update")]
-        public void Update(BlTeacher teacher)
+        public List<BlTeacher> Update(BlTeacher teacher)
         {
-            teachers.Update(teacher);
+            return teachers.Update(teacher);
         }
         [HttpDelete("Delete")]
         public List<BlTeacher> Delete(BlTeacher teacher)

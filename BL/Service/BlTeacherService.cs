@@ -21,7 +21,7 @@ namespace BL.Service
         /// יצירת מורה
         /// </summary>
         /// <param name="teacher"></param>
-        public void Create(BlTeacher teacher)
+        public List<BlTeacher> Create(BlTeacher teacher)
         {
             Teacher p = new Teacher()
             {
@@ -33,8 +33,9 @@ namespace BL.Service
                 Educator = teacher.Educator
             };
             dal.Teachers.Create(p);
+            return Get();
         }
-        public void Update(BlTeacher teacher)
+        public List<BlTeacher> Update(BlTeacher teacher)
         {
             var p = dal.Teachers.GetById(teacher.Id);
             p.Phone = teacher.Phone;
@@ -42,13 +43,15 @@ namespace BL.Service
             p.LastName = teacher.LastName;  
             p.Email = teacher.Email;
             p.Educator = teacher.Educator;
-            
             dal.Teachers.Update(p);
+            return Get();
+
         }
-        public void Delete(BlTeacher teacher)
+        public List<BlTeacher> Delete(BlTeacher teacher)
         {
             var t= dal.Teachers.GetById(teacher.Id);
             dal.Teachers.Delete(t);
+            return Get();
         }
         /// <summary>
         /// החזרת המורות

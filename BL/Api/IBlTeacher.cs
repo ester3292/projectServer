@@ -11,10 +11,10 @@ namespace BL.Api
     public interface IBlTeacher
     {
         List<BlTeacher> Get();
-        void Create(BlTeacher teacher);
+        List<BlTeacher> Create(BlTeacher teacher);
          BlTeacher GetById(int id);
-        void Delete(BlTeacher teacher);
-        void Update(BlTeacher teacher);
+        List<BlTeacher> Delete(BlTeacher teacher);
+        List<BlTeacher> Update(BlTeacher teacher);
         List<BlStudent> GetStudentsForEducationTeacher(int myClass);
 
     }
