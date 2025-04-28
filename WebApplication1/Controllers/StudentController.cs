@@ -60,16 +60,12 @@ namespace Server.Controllers
             return students.GetById(id);
         }
 
-
         [HttpPost("Add")]
         public BlStudent Create(BlStudent student)
         {
            return students.Create(student);
         }
-<<<<<<< HEAD
        
-=======
->>>>>>> 740d06a82767d1d6a0248e9a37d2dcbf5003b759
 
         [HttpPut("Update")]
         public void Update(BlStudent student)
