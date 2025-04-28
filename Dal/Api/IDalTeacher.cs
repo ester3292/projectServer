@@ -6,7 +6,7 @@ namespace Dal.Api
     {
         List<Teacher> Get();
         void Create(Teacher item);
-        Teacher GetById(int id);
+        Teacher? GetById(int id);
         void Delete(Teacher item);
         void Update(Teacher item);
 

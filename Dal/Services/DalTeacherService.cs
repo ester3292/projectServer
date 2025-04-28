@@ -5,7 +5,7 @@ namespace Dal.Services
 {
     public class DalTeacherService : IDalTeacher
     {
-        dbcontext dbcontext;
+        readonly dbcontext dbcontext;
         public DalTeacherService(dbcontext data)
         {
             dbcontext = data;
@@ -28,7 +28,7 @@ namespace Dal.Services
         {
             return dbcontext.Teachers.ToList();
         }
-        public Teacher GetById(int id) => dbcontext.Teachers.ToList().Find(x => x.Id == id);
+        public Teacher? GetById(int id) => dbcontext.Teachers.ToList().Find(x => x.Id == id);
 
         /// <summary>
         ///  עבור הכיתה של המורה נחזיר את התלמידות שלה
