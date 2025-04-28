@@ -167,22 +167,26 @@ namespace BL.Service
             List<string> k = lst.Distinct().ToList();
             return k;
         }
-        public BlStudentAchivment GetFullAchivmentForStudentById(int id)
+        public BlStudentAchivment? GetFullAchivmentForStudentById(int id)
         {
             BlStudent? s = GetById(id);
+            if (s == null)
+                return null;
             BlStudentAchivment studentAchivment = GetFullAchivmentForStudent(s);
             return studentAchivment;
         }
-        public BlStudentAchivment GetFullAchivmentForStudentByFullName(string firstName, string lastName)
+        public BlStudentAchivment? GetFullAchivmentForStudentByFullName(string firstName, string lastName)
         {
             BlStudent? s = GetByFullName(firstName, lastName);
             BlStudentAchivment studentAchivment;
+            if (s == null)
+                return null;
             studentAchivment = GetFullAchivmentForStudent(s);
             return studentAchivment;
         }
         public BlStudentAchivment GetFullAchivmentForStudent(BlStudent s)
         {
-            BlStudentAchivment? studentAchivmente = new()
+            BlStudentAchivment studentAchivmente = new()
             {
                 Id = s.Id,
                 FirstName = s.FirstName,
@@ -196,7 +200,7 @@ namespace BL.Service
             {
                 BlMarks? bA = GetMarkForStudentInSubjectInHalf(s.Id, sub, 0);
                 BlMarks? bB = GetMarkForStudentInSubjectInHalf(s.Id, sub, 1);
-                BlCompleteMark? blCompleteMark = new()
+                BlCompleteMark blCompleteMark = new()
                 {
                     Subject = sub,
                 };

@@ -43,13 +43,13 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetFullAchivmentForStudentByFullName")]
-        public BlStudentAchivment GetFullAchivmentForStudentByFullName(string firstName,string lastName)
+        public BlStudentAchivment? GetFullAchivmentForStudentByFullName(string firstName,string lastName)
         {
             return students.GetFullAchivmentForStudentByFullName(firstName, lastName);
         }
 
         [HttpGet("GetFullAchivmentForStudentById")]
-        public BlStudentAchivment GetFullAchivmentForStudentById(int id)
+        public BlStudentAchivment? GetFullAchivmentForStudentById(int id)
         {
             return students.GetFullAchivmentForStudentById(id);
         }
