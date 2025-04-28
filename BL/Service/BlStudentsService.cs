@@ -163,7 +163,7 @@ namespace BL.Service
         }
         public BlStudentAchivment getFullAchivmentForStudentById(int id)
         {
-            BlStudent s = GetById(id);
+            BlStudent? s = GetById(id);
             BlStudentAchivment studentAchivment = getFullAchivmentForStudent(s);
             return studentAchivment;
         }
