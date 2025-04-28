@@ -5,7 +5,7 @@ namespace Dal.Services
 {
     public class DalStudentService : IDalStudent
     {
-        dbcontext dbcontext;
+        readonly dbcontext dbcontext;
         public DalStudentService(dbcontext data)
         {
             dbcontext = data;
@@ -31,8 +31,8 @@ namespace Dal.Services
             var y = x.FindAll(x => x.StudentId == id);
             return y;
         }
-        public Student GetById(int id) => dbcontext.Students.ToList().Find(x => x.Id == id);
-        public Student GetByFullName(string firstName, string lastName) => dbcontext.Students.ToList().Find(x => x.FirstName == firstName && x.LastName == lastName);
+        public Student? GetById(int id) => dbcontext.Students.ToList().Find(x => x.Id == id);
+        public Student? GetByFullName(string firstName, string lastName) => dbcontext.Students.ToList().Find(x => x.FirstName == firstName && x.LastName == lastName);
 
 
         public void Delete(Student student)

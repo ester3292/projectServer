@@ -266,7 +266,8 @@ namespace BL.Service
 
                 }
             }
-            dal.Students.Delete(m);
+            if(m != null)
+                dal.Students.Delete(m);
         }
         /// <summary>
         ///   עדכון תלמידה
@@ -275,13 +276,14 @@ namespace BL.Service
         public void Update(BlStudent student)
         {
             var m = dal.Students.GetById(student.Id);
+            if (m != null) { 
             m.Id = student.Id;
             m.FirstName = student.FirstName;
             m.LastName = student.LastName;
             m.Phone = student.Phone;
             m.Class = student.Class;
             // m.MarksForStudents = (ICollection<MarksForStudent>)GetMarks(student.Id);
-            dal.Students.Update(m);
+            dal.Students.Update(m);}
         }
     }
 }
