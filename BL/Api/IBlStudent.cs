@@ -18,8 +18,8 @@ namespace BL.Api
         public BlStudentAchivment getFullAchivmentForStudentById(int id);
         public BlStudentAchivment getFullAchivmentForStudentByFullName(string firstName, string lastName);
 
-        public BlStudent GetById(int id);
-        public BlStudent GetByFullName(string firstName, string lastName);
+        public BlStudent? GetById(int id);
+        public BlStudent? GetByFullName(string firstName, string lastName);
         public void Delete(BlStudent student);
         public void Update(BlStudent student);
 

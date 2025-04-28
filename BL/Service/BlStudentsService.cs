@@ -21,7 +21,7 @@ namespace BL.Service
         /// <param name="item"></param>
         public BlStudent Create(BlStudent item)
         {
-            Student p = new Student()
+            Student p = new()
             {
                 Id = item.Id,
                 FirstName = item.FirstName,
@@ -64,7 +64,7 @@ namespace BL.Service
         /// <param name="id"></param>
         /// <param name="subject"></param>
         /// <returns></returns>
-        private BlMarks GetMarkForStudentInSubject(int id, string subject)
+        private BlMarks? GetMarkForStudentInSubject(int id, string subject)
         {
             List<BlMarks> list = GetMarks(id);
             BlMarks? blMarks = list.Find(p => p.Subject == subject);
@@ -98,16 +98,19 @@ namespace BL.Service
             {
                 if (s.Class == myClass)
                 {
-                    BlMarks mark = GetMarkForStudentInSubject(s.Id, subject);
-                    BlStudentAndMark l = new BlStudentAndMark()
+                    BlMarks? mark = GetMarkForStudentInSubject(s.Id, subject);
+                    BlStudentAndMark l = new()
                     {
                         Id = s.Id,
                         FirstName = s.FirstName,
                         LastName = s.LastName,
                         Phone = s.Phone,
                         Class = s.Class,
-                        MarksForStudent = mark
                     };
+                    if(mark != null)
+                    {
+                        l.MarksForStudent = mark;
+                    }
                     lst.Add(l);
                 }
             });
@@ -129,15 +132,18 @@ namespace BL.Service
                 if (s.Class == myClass)
                 {
                     BlMarks? mark = GetMarkForStudentInSubjectInHalf(s.Id, subject, HalfA);
-                    BlStudentAndMark l = new BlStudentAndMark()
+                    BlStudentAndMark l = new()
                     {
                         Id = s.Id,
                         FirstName = s.FirstName,
                         LastName = s.LastName,
                         Phone = s.Phone,
                         Class = s.Class,
-                        MarksForStudent = mark
                     };
+                    if(mark != null)
+                    {
+                        l.MarksForStudent = mark;
+                    }
                     lst.Add(l);
                 }
             });
@@ -170,7 +176,8 @@ namespace BL.Service
         public BlStudentAchivment getFullAchivmentForStudentByFullName(string firstName, string lastName)
         {
             BlStudent? s = GetByFullName(firstName, lastName);
-            BlStudentAchivment studentAchivment = getFullAchivmentForStudent(s);
+            BlStudentAchivment studentAchivment;
+            studentAchivment = getFullAchivmentForStudent(s);
             return studentAchivment;
         }
         public BlStudentAchivment getFullAchivmentForStudent(BlStudent s)
@@ -221,7 +228,7 @@ namespace BL.Service
             var p = dal.Students.GetById(id);
             if (p != null)
             {
-                BlStudent t2 = new BlStudent()
+                BlStudent t2 = new()
                 { Id = p.Id, FirstName = p.FirstName ?? "", LastName = p.LastName ?? "", Class = p.Class ?? 0, Phone = p.Phone ?? "", MarksForStudents = GetMarks(p.Id) };
                 return t2;
             }
@@ -232,7 +239,7 @@ namespace BL.Service
             var p = dal.Students.GetByFullName(firstName, lastName);
             if (p != null)
             {
-                BlStudent t2 = new BlStudent()
+                BlStudent t2 = new()
                 { Id = p.Id, FirstName = p.FirstName ?? "", LastName = p.LastName ?? "", Class = p.Class ?? 0, Phone = p.Phone ?? "", MarksForStudents = GetMarks(p.Id) };
                 return t2;
             }
@@ -250,7 +257,7 @@ namespace BL.Service
             {
                 foreach (var item in marks)
                 {
-                    BlManager blm = new BlManager();
+                    BlManager blm = new();
                     blm.Marks.Delete(item);
 
                 }

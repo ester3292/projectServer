@@ -26,7 +26,7 @@ namespace BL.Service
         /// <param name="mark"></param>
        public BlMarks Create(BlMarks mark)
         {
-            MarksForStudent p = new MarksForStudent()
+            MarksForStudent p = new()
             {
                Id = mark.Id,
                StudentId = mark.StudentId,  
@@ -65,8 +65,7 @@ namespace BL.Service
             var p = dal.Marks.GetById(id);
             if (p != null)
             {
-                string? notes = p.Notes;
-                BlMarks t2 = new BlMarks()
+                BlMarks t2 = new()
                 { Id = p.Id, StudentId  = p.StudentId, Subject  = p.Subject, Mark  = p.Mark, Notes = p.Notes ?? "", TeacherId  = p.TeacherId ?? 0, HalfA = p.HalfA ?? 0 };
                 return t2;
             }

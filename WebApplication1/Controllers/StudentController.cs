@@ -55,7 +55,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetById/{id}")]
-        public BlStudent GetById(int id)
+        public BlStudent? GetById(int id)
         {
             return students.GetById(id);
         }
