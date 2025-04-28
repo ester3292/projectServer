@@ -46,5 +46,6 @@ namespace Server.Controllers
             teachers.Delete(teacher);
             return teachers.Get();
         }
+
     }
 }
