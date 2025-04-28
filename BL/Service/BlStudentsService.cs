@@ -186,8 +186,8 @@ namespace BL.Service
             List<string> subs = GetAllSubjectsForClass(s.Class);
             foreach (string sub in subs)
             {
-                BlMarks bA = GetMarkForStudentInSubjectInHalf(s.Id, sub, 0);
-                BlMarks bB = GetMarkForStudentInSubjectInHalf(s.Id, sub, 1);
+                BlMarks? bA = GetMarkForStudentInSubjectInHalf(s.Id, sub, 0);
+                BlMarks? bB = GetMarkForStudentInSubjectInHalf(s.Id, sub, 1);
                 int avg = 0;
                 if (bA != null && bB != null)
                     avg = (bA.Mark + bB.Mark) / 2;
