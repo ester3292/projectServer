@@ -10,7 +10,7 @@ namespace BL.Service
     /// </summary>
     public class BlStudentService : IBlStudent
     {
-        IDal dal;
+        readonly IDal dal;
         public BlStudentService(IDal dal)
         {
             this.dal = dal;

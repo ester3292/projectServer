@@ -11,7 +11,7 @@ namespace Server.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        IBlStudent students;
+        readonly IBlStudent students;
 
         public StudentController(IBL manager)
         {

@@ -13,9 +13,9 @@ namespace BL.Service
 {
     public class BlMarkService:IBlMark
     {/// <summary>
-    /// הזרקת תלויות
-    /// </summary>
-        IDal dal;
+     /// הזרקת תלויות
+     /// </summary>
+        readonly IDal dal;
         public BlMarkService(IDal dal)
         {
             this.dal = dal;
