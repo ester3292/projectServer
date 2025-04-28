@@ -169,7 +169,7 @@ namespace BL.Service
         }
         public BlStudentAchivment getFullAchivmentForStudentByFullName(string firstName, string lastName)
         {
-            BlStudent s = GetByFullName(firstName, lastName);
+            BlStudent? s = GetByFullName(firstName, lastName);
             BlStudentAchivment studentAchivment = getFullAchivmentForStudent(s);
             return studentAchivment;
         }
