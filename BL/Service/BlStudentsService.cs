@@ -167,20 +167,20 @@ namespace BL.Service
             List<string> k = lst.Distinct().ToList();
             return k;
         }
-        public BlStudentAchivment getFullAchivmentForStudentById(int id)
+        public BlStudentAchivment GetFullAchivmentForStudentById(int id)
         {
             BlStudent? s = GetById(id);
-            BlStudentAchivment studentAchivment = getFullAchivmentForStudent(s);
+            BlStudentAchivment studentAchivment = GetFullAchivmentForStudent(s);
             return studentAchivment;
         }
-        public BlStudentAchivment getFullAchivmentForStudentByFullName(string firstName, string lastName)
+        public BlStudentAchivment GetFullAchivmentForStudentByFullName(string firstName, string lastName)
         {
             BlStudent? s = GetByFullName(firstName, lastName);
             BlStudentAchivment studentAchivment;
-            studentAchivment = getFullAchivmentForStudent(s);
+            studentAchivment = GetFullAchivmentForStudent(s);
             return studentAchivment;
         }
-        public BlStudentAchivment getFullAchivmentForStudent(BlStudent s)
+        public BlStudentAchivment GetFullAchivmentForStudent(BlStudent s)
         {
             BlStudentAchivment? studentAchivmente = new()
             {

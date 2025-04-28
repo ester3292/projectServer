@@ -15,8 +15,8 @@ namespace BL.Api
         public List<BlStudentAndMark> GetMarksInSubject(string subject, int myClass);
         public List<BlStudentAndMark> GetMarksInSubjectInHalf(string subject, int myClass, int HalfA);
         public List<String> GetAllSubjectsForClass(int myClass);
-        public BlStudentAchivment getFullAchivmentForStudentById(int id);
-        public BlStudentAchivment getFullAchivmentForStudentByFullName(string firstName, string lastName);
+        public BlStudentAchivment GetFullAchivmentForStudentById(int id);
+        public BlStudentAchivment GetFullAchivmentForStudentByFullName(string firstName, string lastName);
 
         public BlStudent? GetById(int id);
         public BlStudent? GetByFullName(string firstName, string lastName);

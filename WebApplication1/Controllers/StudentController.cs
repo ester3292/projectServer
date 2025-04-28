@@ -45,13 +45,13 @@ namespace Server.Controllers
         [HttpGet("GetFullAchivmentForStudentByFullName")]
         public BlStudentAchivment GetFullAchivmentForStudentByFullName(string firstName,string lastName)
         {
-            return students.getFullAchivmentForStudentByFullName(firstName, lastName);
+            return students.GetFullAchivmentForStudentByFullName(firstName, lastName);
         }
 
         [HttpGet("GetFullAchivmentForStudentById")]
         public BlStudentAchivment GetFullAchivmentForStudentById(int id)
         {
-            return students.getFullAchivmentForStudentById(id);
+            return students.GetFullAchivmentForStudentById(id);
         }
 
         [HttpGet("GetById/{id}")]
