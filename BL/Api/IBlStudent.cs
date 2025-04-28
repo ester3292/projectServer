@@ -11,7 +11,7 @@ namespace BL.Api
     public interface IBlStudent
     {
         List<BlStudent> Get();
-        BlStudent Create(BlStudent student);
+        List<BlStudent> Create(BlStudent student);
         public List<BlStudentAndMark> GetMarksInSubject(string subject, int myClass);
         public List<BlStudentAndMark> GetMarksInSubjectInHalf(string subject, int myClass, int HalfA);
         public List<String> GetAllSubjectsForClass(int myClass);
