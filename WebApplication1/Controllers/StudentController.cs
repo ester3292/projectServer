@@ -62,12 +62,12 @@ namespace Server.Controllers
 
 
         [HttpPost("Add")]
-        public void Create(BlStudent student)
+        public void Create(BlStudent student)    
         {
-            students.Create(student);
-        }
+            students.Create(student); 
+        }                                       
 
-        [HttpPut("Update")]
+        [HttpPut("Update")]                    
         public void Update(BlStudent student)
         {
             students.Update(student);
