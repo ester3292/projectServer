@@ -65,7 +65,23 @@ namespace Server.Controllers
         {
             return students.Create(student);
         }
-       
+
+        //c
+        //c
+        //c
+        //c
+        //c
+        //c
+        //c
+        //c //c
+        //c
+        //c
+        //c
+        //c
+        //c
+        //c
+        //c
+
 
         [HttpPut("Update")]
         public void Update(BlStudent student)
