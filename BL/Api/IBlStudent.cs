@@ -17,7 +17,6 @@ namespace BL.Api
         public List<String> GetAllSubjectsForClass(int myClass);
         public BlStudentAchivment? GetFullAchivmentForStudentById(int id);
         public BlStudentAchivment? GetFullAchivmentForStudentByFullName(string firstName, string lastName);
-
         public BlStudent? GetById(int id);
         public BlStudent? GetByFullName(string firstName, string lastName);
         public List<BlStudent> Delete(BlStudent student);
