@@ -2976,11 +2976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\חיה\\final-server\\projectC#\\projectServer\\Dal\\Dal.csproj",
+      "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\projectServer\\Dal\\Dal.csproj",
       "projectName": "Dal",
-      "projectPath": "D:\\חיה\\final-server\\projectC#\\projectServer\\Dal\\Dal.csproj",
+      "projectPath": "D:\\חיה\\final-server\\projectServer\\projectServer\\Dal\\Dal.csproj",
       "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-      "outputPath": "D:\\חיה\\final-server\\projectC#\\projectServer\\Dal\\obj\\",
+      "outputPath": "D:\\חיה\\final-server\\projectServer\\projectServer\\Dal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
