@@ -66,27 +66,11 @@ namespace Server.Controllers
             return students.Create(student);
         }
 
-        //c
-        //c
-        //c
-        //c
-        //c
-        //c
-        //c
-        //c //c
-        //c
-        //c
-        //c
-        //c
-        //c
-        //c
-        //c
-
 
         [HttpPut("Update")]
-        public void Update(BlStudent student)
+        public List<BlStudent> Update(BlStudent student)
         {
-            students.Update(student);
+            return students.Update(student);
         }
 
         [HttpDelete("Delete")]

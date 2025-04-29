@@ -253,7 +253,7 @@ namespace BL.Service
         /// מחיקת תלמידה
         /// </summary>
         /// <param name="student"></param>
-        public void Delete(BlStudent student)
+        public List<BlStudent> Delete(BlStudent student)
         {
             var m = dal.Students.GetById(student.Id);
             List<BlMarks> marks = GetMarks(student.Id);
@@ -268,12 +268,13 @@ namespace BL.Service
             }
             if(m != null)
                 dal.Students.Delete(m);
+            return Get();
         }
         /// <summary>
         ///   עדכון תלמידה
         /// </summary>
         /// <param name="student"></param>
-        public void Update(BlStudent student)
+        public List<BlStudent> Update(BlStudent student)
         {
             var m = dal.Students.GetById(student.Id);
             if (m != null) { 
@@ -283,7 +284,9 @@ namespace BL.Service
             m.Phone = student.Phone;
             m.Class = student.Class;
             // m.MarksForStudents = (ICollection<MarksForStudent>)GetMarks(student.Id);
-            dal.Students.Update(m);}
+            dal.Students.Update(m);
+            }
+            return Get();
         }
     }
 }

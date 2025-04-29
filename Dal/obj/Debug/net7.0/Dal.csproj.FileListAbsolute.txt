@@ -12,3 +12,17 @@ D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\refint\Dal.dll
 D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.pdb
 D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 D:\000000000\projectServer\projectServer\Dal\obj\Debug\net7.0\ref\Dal.dll
+D:\חיה\final-server\projectC#\projectServer\Dal\bin\Debug\net7.0\Dal.deps.json
+D:\חיה\final-server\projectC#\projectServer\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+D:\חיה\final-server\projectC#\projectServer\Dal\bin\Debug\net7.0\Dal.dll
+D:\חיה\final-server\projectC#\projectServer\Dal\bin\Debug\net7.0\Dal.pdb
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.dll
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\refint\Dal.dll
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.pdb
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+D:\חיה\final-server\projectC#\projectServer\Dal\obj\Debug\net7.0\ref\Dal.dll

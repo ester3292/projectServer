@@ -20,8 +20,8 @@ namespace BL.Api
 
         public BlStudent? GetById(int id);
         public BlStudent? GetByFullName(string firstName, string lastName);
-        public void Delete(BlStudent student);
-        public void Update(BlStudent student);
+        public List<BlStudent> Delete(BlStudent student);
+        public List<BlStudent> Update(BlStudent student);
 
     }
 }
