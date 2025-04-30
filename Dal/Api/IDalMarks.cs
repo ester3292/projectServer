@@ -7,7 +7,7 @@ namespace Dal.Api
         void Create(MarksForStudent item);
         int Update(MarksForStudent mark);
         void Delete(MarksForStudent mark);
-        MarksForStudent GetById(int id);
+        MarksForStudent? GetById(int id);
 
 
     }

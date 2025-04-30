@@ -7,7 +7,7 @@ namespace BL.Service
 {
     public class BlClassService : IBlClass
     {
-        IDal dal;
+        readonly IDal dal;
         public BlClassService(IDal dal)
         {
             this.dal = dal;
@@ -15,11 +15,11 @@ namespace BL.Service
 
         public void Create(BlClass myClass)
         {
-            Class c = new Class()
+            Class c = new()
             {
                 Name = myClass.Name
             };
-            dal.Class.Create(c);
+            dal.Class?.Create(c);
         }
         public string GetClassNameById(int id)
         {

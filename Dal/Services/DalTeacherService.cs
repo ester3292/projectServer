@@ -29,7 +29,6 @@ namespace Dal.Services
             return dbcontext.Teachers.ToList();
         }
         public Teacher? GetById(int id) => dbcontext.Teachers.ToList().Find(x => x.Id == id);
-
         /// <summary>
         ///  עבור הכיתה של המורה נחזיר את התלמידות שלה
         /// </summary>

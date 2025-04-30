@@ -5,7 +5,7 @@ namespace Dal.Services
 {
     public class DalMarkService : IDalMarks
     {
-        dbcontext dbcontext;
+        readonly dbcontext dbcontext;
         public DalMarkService(dbcontext data)
         {
             dbcontext = data;
@@ -28,6 +28,6 @@ namespace Dal.Services
             dbcontext.SaveChanges();
 
         }
-        public MarksForStudent GetById(int id) => dbcontext.MarksForStudents.ToList().Find(x => x.Id == id);
+        public MarksForStudent? GetById(int id) => dbcontext.MarksForStudents.ToList().Find(x => x.Id == id);
     }
 }

@@ -9,7 +9,7 @@ namespace Server.Controllers
     [ApiController]
     public class TeacherController : ControllerBase
     {
-        IBlTeacher teachers;
+        readonly IBlTeacher teachers;
         public TeacherController(IBL manager)
         {
             teachers = manager.Teachers;

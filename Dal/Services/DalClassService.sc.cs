@@ -5,7 +5,7 @@ namespace Dal.Services
 {
     public class DalClassService : IDallClass
     {
-        dbcontext dbcontext;
+        readonly dbcontext dbcontext;
         public DalClassService(dbcontext data)
         {
             dbcontext = data;
@@ -16,7 +16,7 @@ namespace Dal.Services
             dbcontext.Add(myClass);
             dbcontext.SaveChanges();
         }
-        public Class GetClassNameById(int id)
+        public Class? GetClassNameById(int id)
         {
             return dbcontext.Classes.ToList().Find(x => x.Code == id);
         }

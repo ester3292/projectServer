@@ -6,7 +6,7 @@ namespace Dal
 {
     public class DalManager : IDal
     {
-        dbcontext data = new dbcontext();
+        readonly dbcontext data = new();
 
         public DalManager()
         {
