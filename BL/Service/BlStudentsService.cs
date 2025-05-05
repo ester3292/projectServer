@@ -192,8 +192,14 @@ namespace BL.Service
                 FirstName = s.FirstName,
                 LastName = s.LastName,
                 Phone = s.Phone,
-                Class = dal.Class.GetClassNameById(s.Class).Name
             };
+            Class? cc = dal.Class.GetClassNameById(s.Class);
+            if (cc != null)
+            {
+                String c = cc.Name;
+                if (c != null)
+                    studentAchivmente.Class = c;
+            }
 
             List<string> subs = GetAllSubjectsForClass(s.Class);
             foreach (string sub in subs)
