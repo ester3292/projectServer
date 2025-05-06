@@ -3432,11 +3432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\חיה\\final-server\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
+      "projectUniqueName": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "D:\\חיה\\final-server\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
+      "projectPath": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\Server.csproj",
       "packagesPath": "C:\\Users\\angular\\.nuget\\packages\\",
-      "outputPath": "D:\\חיה\\final-server\\projectServer\\projectServer\\WebApplication1\\obj\\",
+      "outputPath": "D:\\000000000\\projectServer\\projectServer\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3461,8 +3461,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\חיה\\final-server\\projectServer\\projectServer\\BL\\BL.csproj": {
-              "projectPath": "D:\\חיה\\final-server\\projectServer\\projectServer\\BL\\BL.csproj"
+            "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj": {
+              "projectPath": "D:\\000000000\\projectServer\\projectServer\\BL\\BL.csproj"
             }
           }
         }
