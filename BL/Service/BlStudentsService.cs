@@ -263,7 +263,6 @@ namespace BL.Service
                 {
                     BlManager blm = new();
                     blm.Marks.Delete(item);
-
                 }
             }
             if(m != null)
